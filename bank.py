@@ -16,13 +16,13 @@ class Account :
         print("\n\n\nAccount Created")
 
     def showAccount(self):
-        print("Account NUmber : " self.accNo)
+        print("Account NUmber : ", self.accNo)
         print("Account Holder Name : ", self.name)
         print("Type of Account", self.type)
-        print("Balance :" self.deposit)
+        print("Balance :", self.deposit)
 
-    def modifyAccount(self)
-        print("Account NUmber :" self.accNo)
+    def modifyAccount(self):
+        print("Account NUmber :", self.accNo)
         self.name = input("Modify Account Holder Name :")
         self.type = input("Modify type of Account:")
         self.deposit = int(input("Modify Balance :"))
@@ -184,7 +184,7 @@ while ch != 8:
 
     if ch == '1':
         writeAccount()
-    elif ch == '2'
+    elif ch == '2':
         num = int(input("\tEnter the account No. :"))
         depositAndwithdraw(num, 1)
     elif ch == '3':
@@ -193,15 +193,15 @@ while ch != 8:
     elif ch == '4':
         num = int(input("\Enter the account No. :"))
         displaySp(num)
-    elif ch == '5'
+    elif ch == '5':
         displayAll()
-    elif ch == '6' 
+    elif ch == '6':
         num = int(input("\Enter the account No. :"))
         deleteAccount(num)
     elif ch == '7':
         num = int(input("\tEnter the account No. :"))
         modifyAccount(num)
-    elif ch == '8'
+    elif ch == '8':
         print("\tThanks for using bank management system")
         break
     else :
