@@ -173,7 +173,7 @@ intro()
 while ch != 8:
     print("\tMAIN MENU")
     print("\t1. NEW ACCOUNT")
-    print("\t2. DEPOIST AMOUNT")
+    print("\t2. DEPOSIT AMOUNT")
     print("\t3. WITHDRAW AMOUNT")
     print("\t4. BALANCE ENQUIRY")
     print("\t5. ALL ACCOUNT HOLDER LIST")
